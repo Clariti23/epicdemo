@@ -2,7 +2,7 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-epicdemo = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+epicdemo = "FACJtb84d9qiR8uLqsV51zoo3vYAYJzupanPC3pWDPkC"
 
 [registry]
 url = "https://api.apr.dev"
@@ -12,4 +12,4 @@ cluster = "localnet"
 wallet = "/Users/grantferowich/.config/solana/id.json"
 
 [scripts]
-test = "yarn run mocha -t 1000000 tests/"
+test = "node tests/epicdemo.js"
