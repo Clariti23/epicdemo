@@ -1,7 +1,7 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
+[programs.devnet]
 epicdemo = "FACJtb84d9qiR8uLqsV51zoo3vYAYJzupanPC3pWDPkC"
 
 [registry]
